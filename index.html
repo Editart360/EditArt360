@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editart360</title>
+    <link rel="icon" href="lg.png" type="image/png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Estilos compartilhados */
+        .section-title {
+            display: flex;
+            color: #FA8728;
+            font-family: 'Corbel';
+            font-size: 22px;
+            align-items: baseline;
+            margin-top: 30px;
+        }
+
+        .article-content {
+            font-family: 'Corbel';
+            font-size: 22px;
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .service-item {
+            padding: 20px 0;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .about-section {
+            background-image: url(i1.png);
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: end;
+        }
+
+        .about-content {
+            max-width: 750px;
+            padding: 20px;
+        }
+
+        .logos-section {
+            display: flex;
+            width: 100%;
+            justify-content: end;
+        }
+
+        .logo-container {
+            display: flex;
+            max-width: 608px;
+            padding: 20px 0;
+            justify-content: space-around;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+
+        .logo-img {
+            margin: 5px;
+            max-height: 33px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img style="position:absolute;height: 33px;display: block;" src="header.png" alt="Logomarca">
+    <video width="100%" autoplay muted loop><source src="intro.mp4" type="video/mp4"></video>
+
+    <!-- Seção 1 -->
+    
+    <article style="justify-content: space-around;width: 70%;" class="article-content">
+        <section>
+            <span class="section-title"><p style="font-size: 40px;">S</p>egredo de</span>
+            <div style="width: 100%; max-width: 300px;">83% do sucesso de seu vídeo está na magia da nossa edição</div>
+        </section>
+        
+        <img src="i2.png" style="width: 100%; max-width: 300px;">
+    </article>
+
+    <!-- Seção 2 -->
+    <section class="section-title">
+        <p style="font-size: 40px;">S</p>erviços
+    </section>
+    <article class="article-content">
+        <div class="service-item">
+            <img src="g1.png" style="width: 100%; max-width: 300px;">
+            <p>Edição de vídeos longos</p>
+        </div>
+        <div class="service-item">
+            <img src="g2.png" style="width: 100%; max-width: 300px;">
+            <p>Edição de vídeos curtos</p>
+        </div>
+        <div class="service-item">
+            <img src="g3.png" style="width: 100%; max-width: 300px;">
+            <p>Edição de vídeos Dark</p>
+        </div>
+    </article>
+
+    <!-- Seção 3 -->
+    <section class="about-section">
+        <article class="about-content">
+            <span class="section-title">
+                <p style="font-size: 40px;">S</p>omos
+            </span>
+            <p style="margin:20px;color: #fff;font-family: 'Corbel';font-size:22px;">EditArt360, especialistas em transformar ideias em vídeos envolventes. Destaque-se com edições profissionais e conteúdos impactantes. Sua narrativa merece ser contada com excelência. Conecte, emocione, destaque-se – somos a sua escolha para edição de vídeo de alta qualidade.</p>
+        </article>
+
+        <section class="logos-section">
+            <div class="logo-container">
+                <img class="logo-img" src="l1.png">
+                <img class="logo-img" src="l2.png">
+                <img class="logo-img" src="l3.png">
+                <img class="logo-img" src="l4.png">
+                <img class="logo-img" src="l5.png">
+                <img class="logo-img" src="l6.png">
+            </div>
+        </section>
+    </section>
+
+</body>
+
+</html>
